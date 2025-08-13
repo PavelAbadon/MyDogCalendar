@@ -1,0 +1,48 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Рекси",
+      "age": 4,
+      "breed": "Голдън ретрийвър",
+      "owner": "Мария Вълчева",
+      "description": "Изключително мил и послушен",
+      "walks": ["сутрин", "следобед", "вечер"],
+      "food": "RoyalCanin",
+      "image": "images/reksi.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Лъки",
+      "age": 2,
+      "breed": "Лабрадор",
+      "owner": "Иван Петров",
+      "description": "Много енергичен и игрив",
+      "walks": ["сутрин", "вечер"],
+      "food": "Pedigree",
+      "image": "images/lucky.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Бела",
+      "age": 5,
+      "breed": "Йоркширски териер",
+      "owner": "Силвия Георгиева",
+      "description": "Малка и любвеобилна",
+      "walks": ["следобед"],
+      "food": "RoyalCanin",
+      "image": "images/bella.jpg"
+    }, 
+    {
+      "id": 4,
+      "name": "Миша",
+      "age": 1,
+      "breed": "микс",
+      "owner": "съседите от бл. 11 А",
+      "description": "пази входа",
+      "walks": ["следобед"],
+      "food": "кой каквото подхвърли",
+      "image": "images/misha.jpg"
+    }
+  ]
+}
