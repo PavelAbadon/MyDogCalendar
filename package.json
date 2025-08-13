@@ -4,10 +4,17 @@
   "description": "SPA приложение за управление на кучета и събития в календар",
   "main": "src/js/app.js",
   "scripts": {
-    "start": "live-server", 
+    "start": "live-server",
+    "server": "json-server --watch db.json --port 3000",
     "test": "mocha"
   },
-  "keywords": ["SPA", "dogs", "calendar", "page.js", "bootstrap"],
+  "keywords": [
+    "SPA",
+    "dogs",
+    "calendar",
+    "page.js",
+    "bootstrap"
+  ],
   "author": "Pavel Vassilev",
   "license": "MIT",
   "dependencies": {
@@ -15,8 +22,9 @@
     "page": "^1.11.6"
   },
   "devDependencies": {
-    "mocha": "^10.2.0",
     "chai": "^4.3.7",
-    "live-server": "^1.2.2"
+    "json-server": "^1.0.0-beta.3",
+    "live-server": "^1.2.2",
+    "mocha": "^10.2.0"
   }
 }
