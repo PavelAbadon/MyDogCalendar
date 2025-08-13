@@ -1,0 +1,22 @@
+{
+  "name": "my-dog-calendar",
+  "version": "1.0.0",
+  "description": "SPA приложение за управление на кучета и събития в календар",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server", 
+    "test": "mocha"
+  },
+  "keywords": ["SPA", "dogs", "calendar", "page.js", "bootstrap"],
+  "author": "Pavel Vassilev",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "page": "^1.11.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "live-server": "^1.2.2"
+  }
+}

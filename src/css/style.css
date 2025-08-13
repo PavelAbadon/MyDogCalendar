@@ -1,0 +1,32 @@
+/* style.css */
+
+body {
+  background-image: url('../images/pexels-6th-era-photography-1261885-15444860.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
