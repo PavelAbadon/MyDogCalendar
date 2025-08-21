@@ -4,9 +4,9 @@
   "description": "SPA приложение за управление на кучета и събития в календар",
   "main": "src/js/app.js",
   "scripts": {
-    "start": "live-server",
-    "server": "json-server --watch db.json --port 3000",
-    "test": "mocha"
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1",
+    "server": "json-server --watch db.json --port 5000",
+    "test": "mocha tests"
   },
   "keywords": [
     "SPA",
@@ -22,9 +22,10 @@
     "page": "^1.11.6"
   },
   "devDependencies": {
-    "chai": "^4.3.7",
-    "json-server": "^1.0.0-beta.3",
-    "live-server": "^1.2.2",
-    "mocha": "^10.2.0"
+    "http-server": "14.1.1",
+    "json-server": "0.17.4",
+    "playwright-chromium": "1.9.2",
+    "mocha": "8.3.2",
+    "chai": "4.3.4"
   }
 }

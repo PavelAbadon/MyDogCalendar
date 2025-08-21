@@ -44,5 +44,37 @@
       "food": "кой каквото подхвърли",
       "image": "images/misha.jpg"
     }
+  ],
+
+  "events": [
+    {
+      "id": 1,
+      "dogId": 1,
+      "type": "walk",
+      "date": "2025-08-19",
+      "note": "Evening walk in the park"
+    },
+    {
+      "id": 2,
+      "dogId": 2,
+      "type": "vet",
+      "date": "2025-08-21",
+      "note": "Vaccination appointment"
+    },
+    {
+      "id": 3,
+      "dogId": 1,
+      "type": "grooming",
+      "date": "2025-08-25",
+      "note": "Haircut and nail trim"
+    }, 
+    {
+      "id": 4,
+      "dogId": 1,
+      "type": "walk",
+      "date": "2025-08-19",
+      "note": "Evening walk in the park"
+    }
   ]
+
 }
